@@ -1,0 +1,7 @@
+Prompt user to enter a number
+Read the entered number
+
+If the number is divisible by 2 evenly:
+    Print "The number is even"
+Else
+    Print "The number is odd"

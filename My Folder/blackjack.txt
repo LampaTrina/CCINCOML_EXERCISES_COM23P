@@ -1,0 +1,25 @@
+START
+
+Deal Cards to Player and Dealer
+
+IF Player's hand has a total of 17 or higher:
+    Player Stands
+ELSE IF Player's hand has a total of 16 or less:
+    Player Hits until total is 17 or higher
+
+IF Dealer's upcard is an Ace:
+    IF Player's hand is 16 or less:
+        Player Hits until total is 17 or higher
+    ELSE IF Player's hand is 17 or higher:
+        Player Stands
+
+IF Dealer's upcard is a 10-value card:
+    IF Player's hand has a total of 16 or less:
+        Player Hits until total is 17 or higher
+    ELSE IF Player's hand is 17 or higher:
+        Player Stands
+
+IF Player's hand busts:
+    Accept defeat
+
+END
